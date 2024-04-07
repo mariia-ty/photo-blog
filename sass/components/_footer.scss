@@ -1,0 +1,25 @@
+.load_button {
+    font-family: $playfair-font-family;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 48px 21px 49px;
+    border: 1px solid $common_txt_color;
+    background-color: white;
+}
+.scale-up-hor-center {
+    &:hover {
+        animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+}
+
+@keyframes scale-up-hor-center {
+    0% {
+      transform: scaleX(1);
+    }
+    100% {
+      transform: scaleX(1.4);
+    }
+  }
