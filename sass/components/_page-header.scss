@@ -8,32 +8,38 @@
     width: 555px;
     outline: 2px solid $grey_header_color;
     margin: auto;
-}
+    
+    .header_item {
+      font-family: $playfair-font-family;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0 99px 0 0;
 
-.header_item {
-  font-family: $playfair-font-family;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin: 0 99px 0 0;
-}
-
-.header_link {
-  text-decoration: none;
-  color: $grey_header_color;
-  &:hover {
-    color: $header-accent-color;
-  }
-}
-.active {
-    color: $header-accent-color;
-}
-.text-shadow-pop-br {
-    &:hover {
-        animation: text-shadow-pop-br 0.6s both;
+      .header_link {
+        text-decoration: none;
+        color: $grey_header_color;
+        &:hover {
+          color: $header-accent-color;
+        }
+      }
+      
+      .active {
+          color: $header-accent-color;
+      }
+  
+      .text-shadow-pop-br {
+          &:hover {
+              animation: text-shadow-pop-br 0.6s both;
+          }
+      }
     }
 }
+
+
+
+
 
 @keyframes text-shadow-pop-br {
     0% {
