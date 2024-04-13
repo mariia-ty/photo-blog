@@ -1,5 +1,5 @@
 .content_list {
-    list-style: none;
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -7,7 +7,7 @@
 }
 
 .span_title {
-    font-family: $ubuntu-font-family;
+  font-family: $ubuntu-font-family;
   color: $span_title_color;
   font-size: 14px;
   font-style: normal;
